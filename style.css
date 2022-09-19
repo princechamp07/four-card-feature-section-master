@@ -1,0 +1,136 @@
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+ 
+    body{
+        background-color: hsl(0, 0%, 98%);
+    }
+
+    main{
+        margin: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .heading{
+        font-size: 40px;
+        color: hsl(234, 12%, 34%);
+        font-weight: lighter;
+    }
+
+    p{
+        color: hsl(229, 6%, 66%);
+        font-size: 18px;
+    }
+
+    h1{
+        margin: 0;
+        padding: 5px;
+        color: hsl(234, 12%, 34%);
+        font-size: 40px;
+    }
+
+    .flex{
+        margin-top: 100px;
+        display: flex;
+    }
+
+
+    .flex p{
+        font-size: 15px;
+    }
+    img{
+       margin-left: 85%;
+       margin-top: 10%;
+    }
+
+    b{
+        font-size: 20px;
+        color: hsl(234, 12%, 34%);
+    }
+
+    .box{
+        width: 20%;
+        background-color: #fff;
+        padding: 40px;
+        border-top: 5px solid hsl(180, 62%, 55%);
+        border-radius: 10px;
+        box-shadow:-4px 10px 20px hsl(229, 6%, 66%);
+        height: 50%;
+        margin-top: 8%;
+        margin-left: 6%;
+        margin-right: -90px;
+    }
+
+    .box1{
+        background-color: #fff;
+        padding: 40px;
+        border-top: 5px solid hsl(0, 78%, 62%);
+        border-radius: 10px;
+        margin-top: -5%;
+        margin-left: 145px;
+        box-shadow:-4px 10px 20px hsl(229, 6%, 66%);
+        width: 45%;
+    }
+
+    .box2{
+        
+        background-color: #fff;
+        padding: 40px;
+        border-top: 5px solid hsl(34, 97%, 64%);
+        border-radius: 10px;
+        margin: 15px;   
+        box-shadow:-4px 10px 20px hsl(229, 6%, 66%);
+        width: 45%;
+        margin-left: 145px;
+    }
+
+    .box3{
+        width: 20%;
+        background-color: #fff;
+        padding: 40px;
+        border-top: 5px solid hsl(212, 86%, 64%);
+        border-radius: 10px;
+        margin-top: 8%;
+        box-shadow:-4px 10px 20px hsl(229, 6%, 66%);
+        height: 50%;
+        margin-left: -8%;
+    }
+
+    @media only screen and (max-width:818px) {
+
+        main{
+            flex-direction: column;
+            width: 80%;
+            margin: 10%;
+        }
+        
+        .flex{
+            flex-direction: column;
+        }
+
+        .box{
+            width: auto;
+            margin: 0;
+        }
+
+        .box1{
+            width: auto;
+            margin: 0;
+            margin-top:20px ;
+        }
+
+        .box2{
+            width: auto;
+            margin: 0;
+            margin-top:20px ;
+        }
+
+        .box3{
+            width: auto;
+            margin: 0;
+            margin-top:20px ;
+        }
+
+    }
